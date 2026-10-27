@@ -3,6 +3,7 @@
 Se diseñó e implementó un sistema de nómina aplicando el concepto de herencia en Programación Orientada a Objetos. Se creó la clase padre Empleado, que contiene los atributos y métodos comunes a todos los empleados del INTEP (cédula, nombre, dependencia, resumen y cálculo de pago). A partir de ella se desarrollaron las clases hijas Docente y Administrativo, cada una con atributos y comportamientos específicos. Además, se utilizó sobrescritura de métodos (@Override) para que cada tipo de empleado calcule su pago mensual de forma diferente, evitando la duplicación de código y aprovechando la reutilización mediante extends y super.
 
 preguntas A
+
 1	Aplique la prueba del «es un» a su jerarquía: escriba las dos frases que la justifican. Luego escriba una frase con las mismas clases que no tenga sentido, y explique por qué esa relación sería incorrecta. (4 pts)
 R// un Docente es un Empleado y un Administrativo es un Empleado. «Un Empleado es un Docente» no siempre es cierto, porque también puede ser administrativo.
 2	Explique qué hace la línea super(cedula, nombre, dependencia); en su código y por qué debe ir en la primera línea del constructor. (4 pts)
