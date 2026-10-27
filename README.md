@@ -1,1 +1,3 @@
 # programacion2-taller-sesion4
+
+Se diseñó e implementó un sistema de nómina aplicando el concepto de herencia en Programación Orientada a Objetos. Se creó la clase padre Empleado, que contiene los atributos y métodos comunes a todos los empleados del INTEP (cédula, nombre, dependencia, resumen y cálculo de pago). A partir de ella se desarrollaron las clases hijas Docente y Administrativo, cada una con atributos y comportamientos específicos. Además, se utilizó sobrescritura de métodos (@Override) para que cada tipo de empleado calcule su pago mensual de forma diferente, evitando la duplicación de código y aprovechando la reutilización mediante extends y super.
